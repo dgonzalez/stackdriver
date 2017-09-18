@@ -1,0 +1,18 @@
+{
+  "name": "stackdriver-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/logging-bunyan": "^0.5.0",
+    "@google-cloud/trace-agent": "^2.2.0",
+    "bunyan": "^1.8.12",
+    "express": "^4.15.4",
+    "requests": "^0.2.2"
+  }
+}
